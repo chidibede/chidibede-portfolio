@@ -247,7 +247,7 @@ export const education: TimelineItem[] = [
     date: 'September 2014',
     location: 'Federal University of Technology',
     title: 'Bachelors in Chemical Engineering',
-    content: <p>Bachelord degree in checmical engineering</p>,
+    content: <p>Bachelors degree in Chemical engineering</p>,
   },
 ];
 
