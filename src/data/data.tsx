@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Chidi Resume',
+  description: 'Personal portfolio website for Chidi Bede',
 };
 
 /**
@@ -146,12 +146,24 @@ export const skills: SkillGroup[] = [
         level: 9,
       },
       {
-        name: 'Typescript',
-        level: 7,
+        name: 'Nextjs',
+        level: 9,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'HTML',
+        level: 9,
+      },
+      {
+        name: 'CSS',
+        level: 9,
+      },
+      {
+        name: 'Tailwind UI',
+        level: 9,
+      },
+      {
+        name: 'Chakra UI',
+        level: 9,
       },
     ],
   },
@@ -163,8 +175,8 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Python',
+        level: 7,
       },
       {
         name: 'Golang',
@@ -173,19 +185,19 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Cloud',
     skills: [
       {
-        name: 'React Native',
+        name: 'AWS Services',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Terraform IAAC',
+        level: 8,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'SAM',
+        level: 8,
       },
     ],
   },
@@ -196,70 +208,34 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
+    title: 'Resume website',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
+    title: 'Retail Point of sale system',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
+    title: 'Movie Database',
+    description: 'Database of movies',
     url: 'https://reactresume.com',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
+    title: 'AI Productivity',
+    description: 'Productivity services utilizing artificial intelligence',
     url: 'https://reactresume.com',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
+    title: 'Live voice translator',
+    description: 'Live language translator',
     url: 'https://reactresume.com',
     image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
   },
 ];
 
@@ -268,24 +244,18 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'September 2014',
+    location: 'Federal University of Technology',
+    title: 'Bachelors in Chemical Engineering',
+    content: <p>Bachelord degree in checmical engineering</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'January 2022 - Present',
+    location: 'Safeguard Global UK',
+    title: 'Software Engineer',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
@@ -294,9 +264,53 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'November 2021 - November 2022',
+    location: 'GitStartHQ (YC S19), California USA',
+    title: 'Software Engineer',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'October 2020 - December 2021',
+    location: 'Tuteria',
+    title: 'Software Engineer',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'June 2018 - December 2021',
+    location: 'Emedia Bay',
+    title: 'Website Developer/Cofounder',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'June 2020 - October 2020',
+    location: 'Sharpstudy Vancouver',
+    title: 'Software Developer',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'October 2015 - July 2019',
+    location: 'Oris Educational Centre',
+    title: 'Science Instructor/Computer Coordinator',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
@@ -336,27 +350,23 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description:
+    'I have a moderate social media presence, so you can get in touch with me through them as listed or you can send me a mail',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'chidibede@gmail.com',
+      href: 'mailto:chidibede@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
+      text: 'Lagos, Nigeria',
       href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
-    },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
     },
     {
       type: ContactType.Github,
       text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      href: 'https://github.com/chidibede',
     },
   ],
 };
@@ -365,9 +375,6 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/chidibede'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/chidibede/'},
 ];
