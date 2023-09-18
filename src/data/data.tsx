@@ -365,7 +365,7 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
+      text: 'chidibede',
       href: 'https://github.com/chidibede',
     },
   ],
