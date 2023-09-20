@@ -208,9 +208,10 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Resume website',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Language Voice Translator',
+    description:
+      'An app that helps tourists with translations, you record what you want to say and translate to the language of choice',
+    url: 'https://main.d38cfn0l66nvp2.amplifyapp.com/',
     image: porfolioImage1,
   },
   {
@@ -259,28 +260,27 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         <li>
-          1. Led the building of the AWS Data Sync Infrastructure as a code service that leverages the power of AWS Glue
-          to catalogue data from the Monolith data source to the microservices database as a way of decoupling the
+          Led the building of the AWS Data Sync Infrastructure as a code service that leverages the power of AWS Glue to
+          catalogue data from the Monolith data source to the microservices database as a way of decoupling the
           dependence on the source database
         </li>
         <li>
           {' '}
-          2. Conceptualized the data transformation AWS Lambda Service built using Python for maintaining data
-          integrity.
+          Conceptualized the data transformation AWS Lambda Service built using Python for maintaining data integrity.
         </li>
         <li>
           {' '}
-          3. Drove the pixel-perfect translation of the mocks from the UI/UX Engineer to Performant React Components.
+          Drove the pixel-perfect translation of the mocks from the UI/UX Engineer to Performant React Components.
         </li>
         <li>
           {' '}
-          4. Part of the team employing the powers of AWS and React to power the payroll tasks and approvals utility
+          Part of the team employing the powers of AWS and React to power the payroll tasks and approvals utility
           software of the company.
         </li>
-        <li> 5. Employed BroswerStack's UI Test Automation techniques to maintain the quality of the UI</li>
-        <li> 6. Responsible for automating AWS services deployment using Circle CI.</li>
+        <li> Employed BroswerStack's UI Test Automation techniques to maintain the quality of the UI</li>
+        <li> Responsible for automating AWS services deployment using Circle CI.</li>
         <li>
-          7. Built extensive test coverage for all new features using the Jest testing framework which reduced user
+          Built extensive test coverage for all new features using the Jest testing framework which reduced user
           complaints.
         </li>
       </p>
@@ -293,15 +293,12 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         <li>
-          1. Direct and Design Software solutions for a financial technology company in the Philippines while remaining
+          Direct and Design Software solutions for a financial technology company in the Philippines while remaining
           focused on the client's need.
         </li>
-        <li> 2. Developed and maintained a web-based application using React, and Node.js</li>
-        <li>
-          {' '}
-          3. Improved the performance of the application by implementing efficient algorithms and data structures
-        </li>
-        <li> 4. Collaborated with the team to design and implement new features and improve the user experience</li>
+        <li> Developed and maintained a web-based application using React, and Node.js</li>
+        <li> Improved the performance of the application by implementing efficient algorithms and data structures</li>
+        <li> Collaborated with the team to design and implement new features and improve the user experience</li>
       </p>
     ),
   },
@@ -312,31 +309,31 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         <li>
-          1. Worked closely with the product team in building user-friendly and accessible interfaces using typescript
-          and React.js frontend library.
+          Worked closely with the product team in building user-friendly and accessible interfaces using typescript and
+          React.js frontend library.
         </li>
         <li>
           {' '}
-          2. Responsible for building a cloudinary service in Node.js that was utilized by the company in handling all
+          Responsible for building a cloudinary service in Node.js that was utilized by the company in handling all
           forms of media from the company platforms.
         </li>
         <li>
           {' '}
-          3. Responsible for building the full frontend application for the tutor's application, working closely with
-          the CEO in designing a smooth user experience for the tutors and a great onboarding experience for new tutors.
+          Responsible for building the full frontend application for the tutor's application, working closely with the
+          CEO in designing a smooth user experience for the tutors and a great onboarding experience for new tutors.
         </li>
         <li>
           {' '}
-          4. Built extensive test coverage for all new features using the uvu testing framework which reduced user
+          Built extensive test coverage for all new features using the uvu testing framework which reduced user
           complaints.
         </li>
         <li>
           {' '}
-          5. Worked within an agile team that revamped the company's platform automating client requests for tutors,
+          Worked within an agile team that revamped the company's platform automating client requests for tutors,
           utilizing the powers of typescript and the full-stack javascript framework, Next.js. Worked within an agile
           team maintaining the legacy codebase written in Django python framework.
         </li>
-        <li> 6. Team lead for maintaining the python microservices in the starlette ASGI framework.</li>
+        <li> Team lead for maintaining the python microservices in the starlette ASGI framework.</li>
       </p>
     ),
   },
@@ -347,16 +344,16 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         <li>
-          1. Handling all verbal and written communications between hosting companies, clients, and vendors. Meeting
-          with the prospective clients to review website, and gather the client’s specifications for new or existing
+          Handling all verbal and written communications between hosting companies, clients, and vendors. Meeting with
+          the prospective clients to review website, and gather the client’s specifications for new or existing
           websites.
         </li>
-        <li> 2. Designing, coding a new website for the eagle project using CSS, HTML, javascript, jquery.</li>
-        <li> 3. Built designed and maintained a website for emediabay.com using wordpress and php.</li>
-        <li> 4. Built, designed and maintained the website for zuritek.com using HTML, CSS and Javascript</li>
-        <li> 5. Designing and implementing the front-end using HTML5, CSS3, Javascript</li>
-        <li> 6. Built custom websites using Bootstrap and WordPress.</li>
-        <li>7. Preparing multiple designs and wireframes for clients approval before proceeding with development.</li>
+        <li> Designing, coding a new website for the eagle project using CSS, HTML, javascript, jquery.</li>
+        <li> Built designed and maintained a website for emediabay.com using wordpress and php.</li>
+        <li> Built, designed and maintained the website for zuritek.com using HTML, CSS and Javascript</li>
+        <li> Designing and implementing the front-end using HTML5, CSS3, Javascript</li>
+        <li> Built custom websites using Bootstrap and WordPress.</li>
+        <li> Preparing multiple designs and wireframes for clients approval before proceeding with development.</li>
       </p>
     ),
   },
@@ -366,23 +363,22 @@ export const experience: TimelineItem[] = [
     title: 'Software Developer',
     content: (
       <p>
-        <li>1. Responsible for building the backend of the courses feature using GraphQL</li>
-        <li> 2. Worked within an agile team that developed an adaptive education roadmap feature for students</li>
-        <li> 3. Responsible for building the GraphQL APIs for the dashboard of the students</li>
+        <li> Responsible for building the backend of the courses feature using GraphQL</li>
+        <li> Worked within an agile team that developed an adaptive education roadmap feature for students</li>
+        <li> Responsible for building the GraphQL APIs for the dashboard of the students</li>
         <li>
           {' '}
-          4. Worked closely with the lead engineer in onboarding new interns and helped them understand the existing
+          Worked closely with the lead engineer in onboarding new interns and helped them understand the existing
           codebase.
         </li>
         <li>
           {' '}
-          5. Utilized the power of Javascript to create APIs for internal use thereby reducing the time to ship frontend
+          Utilized the power of Javascript to create APIs for internal use thereby reducing the time to ship frontend
           features and increasing productivity.
         </li>
         <li>
           {' '}
-          6. Responsible for hosting the backend development APIs on Heroku (PAAS) which was utilized by the frontend
-          team.
+          Responsible for hosting the backend development APIs on Heroku (PAAS) which was utilized by the frontend team.
         </li>
       </p>
     ),
@@ -394,22 +390,22 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         <li>
-          1. Utilized various tools such as lucid chart, and scratch to build a solid foundation for web development for
-          my students
+          Utilized various tools such as lucid chart, and scratch to build a solid foundation for web development for my
+          students
         </li>
         <li>
           {' '}
-          2. Prepared students in Physics and Chemistry for the Cambridge International General Certificate for
-          Secondary Education with an 88% pass rate.
+          Prepared students in Physics and Chemistry for the Cambridge International General Certificate for Secondary
+          Education with an 88% pass rate.
         </li>
         <li>
           {' '}
-          3. Prepared students for the Advanced level Cambridge International General Certificate for Secondary
-          Education with a 72% pass rate.
+          Prepared students for the Advanced level Cambridge International General Certificate for Secondary Education
+          with a 72% pass rate.
         </li>
         <li>
           {' '}
-          4. Lead for managing and maintaining school data using various tools such as SQL Databases and microsoft excel
+          Lead for managing and maintaining school data using various tools such as SQL Databases and microsoft excel
         </li>
       </p>
     ),
