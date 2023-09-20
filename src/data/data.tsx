@@ -217,7 +217,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Retail Point of sale system',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://main.d2gj5j6qt1l9nb.amplifyapp.com/',
     image: porfolioImage2,
   },
   {
@@ -229,14 +229,8 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'AI Productivity',
     description: 'Productivity services utilizing artificial intelligence',
-    url: 'https://reactresume.com',
+    url: '',
     image: porfolioImage4,
-  },
-  {
-    title: 'Live voice translator',
-    description: 'Live language translator',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
   },
 ];
 
